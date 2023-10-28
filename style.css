@@ -1,0 +1,103 @@
+/* This is the practice based learning approach to help newcomers to work through the css Basic */
+/* All the statements are commented to prevent the overlap of the code. For the study purpose just undo comment in each of the particular section to know how the code works specifically. */
+
+/* Basic selectors */
+/* p {
+  color: green;
+} */
+/* only the associated p will be green which means all paragraphs will be green */
+
+/* div {
+  color: green;
+} */
+/* similar with this only div statements will be green/ */
+
+/* 
+#fifth {
+  color: green;
+} */
+/* only the associated id fifth will be targeted by above statement and will be green */
+
+/* Descendant (space ) */
+
+/* section p {
+  color: green;
+} */
+/* paragraphs in the section will be green */
+
+/* child (>) */
+/* section > p {
+  color: red;
+} */
+/* only the child p of the section but not the div's p will be targeted */
+
+/* Adjacent denoted by + */
+
+/* section + div {
+  color: red;
+} */
+/* eventhough it looks like section and div will be targeted only div will be targeted by putting + (Adjacent)  only the first adjacent div will be targeted after div*/
+
+/* siblings */
+
+/* section ~ div {
+  color: red;
+} */
+/* any div after the section will  be targeted and will be styled by above statement */
+
+/* div + p {
+  color: red;
+} */
+/* more example of Adjacent */
+
+/* section > div p {
+  color: red;
+} */
+
+/* paragraphs inside of the div first child of the section will be targeted */
+
+/* 3>>>>> Attribute selector */
+/* element[attribute-name] */
+/* [attribute] {
+  name: value;
+} */
+/* syntax reperesentation of how to illustrate and separate between attribute name and value */
+
+/* [href] {
+  color: red;
+  text-decoration: none;
+  font-size: 30px;
+}
+[href]:hover {
+  color: green;
+} */
+/* 
+a[href="http://google.com"]
+{
+  background: blue;
+} */
+
+/* 4>>>>pseudo-elements selector */
+/* p::first-letter {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+p::first-line {
+  color: red;
+} */
+
+/* if you want specific letter like first letter or first line and likewise to be targeted than you can use this pseudo-elements selector */
+
+/* 5>>>>Pseudo-class selector */
+/* a:hover {
+  background: green;
+} */
+
+/* p:nth-child(1) {
+  color: red;
+} */
+
+/* P:nth-child(even) {
+  color: red;
+} */
